@@ -145,13 +145,8 @@ examples/ directory.
 Two different operators including the rotation term are provided:
 - euler_operator_rotation.h
 - euler_operator_rotation_R2.h
+  
 The differences between the two formulations are discussed in https://arxiv.org/abs/2605.29598
 
 The operator used by the solver can be selected by including the corresponding
 header file in the main solver source code.
-
-## Additional Modules
-The subfolder LAMINAR_INVERSE_MASS_MATRICES_PERTURBATION contains an
-alternative solver implementation based on a perturbation formulation
-(as described, e.g., in
-https://www.sciencedirect.com/science/article/abs/pii/S002199911730030X).
